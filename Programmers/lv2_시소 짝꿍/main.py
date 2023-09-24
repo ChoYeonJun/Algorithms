@@ -6,4 +6,4 @@ def solution(weights):
     for w in weights:
         answer += info[w] + info[w*2] + info[w/2] + info[(w*2)/3] + info[(w*3)/2] + info[(w*4)/3] + info[(w*3)/4]
         info[w] += 1
-    return answer
+    return answergi
